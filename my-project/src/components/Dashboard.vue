@@ -42,6 +42,7 @@
       </div>
 
     </div>
+
   </div>
 </template>
 
@@ -58,7 +59,7 @@ export default {
       facebookResponses: '150'
     }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

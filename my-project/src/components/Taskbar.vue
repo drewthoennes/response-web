@@ -3,6 +3,7 @@
     <h2>Taskbar</h2>
     <div class="list-group">
       <router-link to="/" class="list-group-item" exact-active-class="active"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</router-link>
+      <router-link to="/analysis" class="list-group-item" exact-active-class="active"><i class="fa fa-bar-chart" aria-hidden="true"></i> Analysis</router-link>
       <router-link to="/settings" class="list-group-item" exact-active-class="active"><i class="fa fa-cog" aria-hidden="true"></i> Settings</router-link>
     </div>
   </div>

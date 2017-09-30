@@ -4,6 +4,7 @@ import Page from '@/components/Page'
 import Dashboard from '@/components/Dashboard'
 import Taskbar from '@/components/Taskbar'
 import Settings from '@/components/Settings'
+import Analysis from '@/components/Analysis'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/settings',
       name: 'Settings',
       component: Settings
+    },
+    {
+      path: '/analysis',
+      name: 'Analysis',
+      component: Analysis
     }
   ]
 })

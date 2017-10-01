@@ -5,10 +5,11 @@
       <h2 class="m-0 p-0">Taskbar</h2>
     </div>
     <div class="list-group mt-3">
-      <router-link to="/" class="list-group-item" exact-active-class="active"><i class="mr-2 fa fa-tachometer" aria-hidden="true"></i>Dashboard</router-link>
-      <router-link to="/analysis" class="list-group-item" exact-active-class="active"><i class="mr-2 fa fa-bar-chart" aria-hidden="true"></i>Analysis</router-link>
-      <router-link to="/tags" class="list-group-item" exact-active-class="active"><i class="mr-2 fa fa-tags" aria-hidden="true"></i>Tags</router-link>
-      <router-link to="/settings" class="list-group-item" exact-active-class="active"><i class="mr-2 fa fa-cog" aria-hidden="true"></i>Settings</router-link>
+      <router-link to="/" class="list-group-item list-group-item-action" exact-active-class="active"><i class="mr-2 fa fa-tachometer" aria-hidden="true"></i>Dashboard</router-link>
+      <router-link to="/analysis" class="list-group-item list-group-item-action" exact-active-class="active"><i class="mr-2 fa fa-bar-chart" aria-hidden="true"></i>Analysis</router-link>
+      <router-link to="/tags" class="list-group-item list-group-item-action" exact-active-class="active"><i class="mr-2 fa fa-tags" aria-hidden="true"></i>Tags</router-link>
+      <router-link to="/questions" class="list-group-item list-group-item-action" exact-active-class="active"><i class="mr-2 fa fa-question" aria-hidden="true"></i>Questions</router-link>
+      <router-link to="/settings" class="list-group-item list-group-item-action" exact-active-class="active"><i class="mr-2 fa fa-cog" aria-hidden="true"></i>Settings</router-link>
     </div>
   </div>
 </template>

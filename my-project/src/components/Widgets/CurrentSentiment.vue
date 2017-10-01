@@ -22,7 +22,7 @@ export default {
     this.getData()
     setInterval(() => {
       this.getData()
-    }, 20000)
+    }, 10000)
 
   },
   methods: {

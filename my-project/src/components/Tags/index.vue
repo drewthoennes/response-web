@@ -14,7 +14,7 @@
 
 <script>
 import Taskbar from '@/components/Taskbar'
-import Dashboard from '@/components/Analysis/Dashboard'
+import Dashboard from '@/components/Tags/Dashboard'
 
 export default {
   name: "analysis",

@@ -5,6 +5,7 @@ import Dashboard from '@/components/Dashboard'
 import Taskbar from '@/components/Taskbar'
 import Settings from '@/components/Settings'
 import Analysis from '@/components/Analysis'
+import Tags from '@/components/Tags'
 
 Vue.use(Router)
 
@@ -14,11 +15,6 @@ export default new Router({
       path: '/',
       name: 'Page',
       component: Page
-    },
-    {
-      path: '/taskbar',
-      name: 'Taskbar',
-      component: Taskbar
     },
     {
       path: '/dashboard',
@@ -34,6 +30,11 @@ export default new Router({
       path: '/analysis',
       name: 'Analysis',
       component: Analysis
+    },
+    {
+      path: '/tags',
+      name: 'Tags',
+      component: Tags
     }
   ]
 })
